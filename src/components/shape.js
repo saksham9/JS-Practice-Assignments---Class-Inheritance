@@ -1,16 +1,16 @@
 // declare class
-class Shape{
-    constructor(props) {
-        super(props);
-        this.color="red";
+class Shape {
+    constructor() {
+      this.color = "red";
     }
-    drawShape(){
-        return "Shape";
+    drawShape() {
+      return "Shape";
     }
-    calculateArea(){
-        return "Area";
+    calculateArea() {
+      return "Area";
     }
-}
-// export class using module.exports
-
-module.exports=Shape;
+  }
+  // export class using module.exports
+  
+  module.exports = Shape;
+  
