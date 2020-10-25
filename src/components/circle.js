@@ -3,7 +3,7 @@ const {Shape}=require("./shape");
 
 // declare class
 class Circle extends Shape{
-    calculateArea(){}
+    get calculateArea(){}
 }
 
 
