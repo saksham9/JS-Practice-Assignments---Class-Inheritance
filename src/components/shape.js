@@ -3,12 +3,8 @@ class Shape {
     constructor() {
       this.color = "red";
     }
-    drawShape() {
-      return "Shape";
-    }
-    calculateArea() {
-      return "Area";
-    }
+    drawShape() {}
+    calculateArea() {}
   }
   // export class using module.exports
   
